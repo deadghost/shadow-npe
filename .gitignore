@@ -1,0 +1,14 @@
+# Emacs
+*~
+\#*\#
+
+# Nodejs
+node_modules/
+
+# Compiled JS
+.shadow-cljs/
+/resources/public/js/main.js
+/resources/public/js/cljs-runtime
+/resources/public/js/manifest.edn
+
+.nrepl-port

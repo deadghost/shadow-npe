@@ -1,0 +1,9 @@
+;; shadow-cljs configuration
+{:source-paths ["src/cljs"] ; Source files dir(s)
+ ;; Clojurescript dependencies
+ :dependencies []
+ :builds {:app
+          {:target :browser ; compile code that loads in a browser
+           :output-dir "resources/public/js"
+           ;; Function radmin.app/start is called when page loads.
+           :modules {:main {:init-fn shadow-npe.main/start!}}}}}

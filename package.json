@@ -1,0 +1,17 @@
+{
+    "name": "shadow-npe",
+    "description": "This is a minimal reproducible example of a null pointer exception occuring during compilation.",
+    "version": "0.0.0",
+    "private": true,
+    "main": "app.js",
+    "scripts": {},
+    "dependencies": {
+        "deck.gl": "^7.1.4",
+        "events": "^3.0.0",
+        "nebula.gl": "^0.13.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "source-map-support": "^0.5.12",
+        "uuid": "^3.3.2"
+    }
+}
